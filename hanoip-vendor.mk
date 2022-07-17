@@ -12,8 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hanoip/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/motorola/hanoip/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/motorola/hanoip/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/motorola/hanoip/proprietary/vendor/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.content.ai.xml \
-    vendor/motorola/hanoip/proprietary/vendor/etc/permissions/com.motorola.camera2.whitney.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera2.whitney.xml \
     vendor/motorola/hanoip/proprietary/product/etc/permissions/com.motorola.moto-uirefresh.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.moto-uirefresh.xml \
     vendor/motorola/hanoip/proprietary/product/etc/permissions/com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/hanoip/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
@@ -21,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hanoip/proprietary/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml \
     vendor/motorola/hanoip/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/motorola/hanoip/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
-    vendor/motorola/hanoip/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/hanoip/proprietary/vendor/etc/permissions/com.motorola.androidx.camera.extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.androidx.camera.extensions.xml \
     vendor/motorola/hanoip/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/motorola/hanoip/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
@@ -464,9 +461,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hanoip/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/motorola/hanoip/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/hanoip/proprietary/vendor/firmware/FW_ILITEK_TDDI_TM.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FW_ILITEK_TDDI_TM.bin \
-    vendor/motorola/hanoip/proprietary/vendor/firmware/SAMSUNG-KLUCG4J1ED-B0C1-64G.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/SAMSUNG-KLUCG4J1ED-B0C1-64G.fw \
-    vendor/motorola/hanoip/proprietary/vendor/firmware/SAMSUNG-KLUDG8V1EE-B0C1-128G.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/SAMSUNG-KLUDG8V1EE-B0C1-128G.fw \
-    vendor/motorola/hanoip/proprietary/vendor/firmware/SKhynix-H28U74301AMR-64G.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/SKhynix-H28U74301AMR-64G.fw \
     vendor/motorola/hanoip/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
     vendor/motorola/hanoip/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
     vendor/motorola/hanoip/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
@@ -1305,7 +1299,6 @@ PRODUCT_PACKAGES += \
     moto-ims-ext \
     moto-settings \
     moto-telephony \
-    com.android.hotwordenrollment.common.util \
     com.motorola.hardware.camera.desktop \
     qcom-moto-ims-ext \
     qcom-moto-telephony-ext \
